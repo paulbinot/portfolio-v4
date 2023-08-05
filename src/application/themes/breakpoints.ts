@@ -23,13 +23,13 @@ export const deviceSizes = {
 }
 
 export const breakpoints = {
-  mobileS: `(min-width: ${deviceSizes.mobileS})`,
-  mobileM: `(min-width: ${deviceSizes.mobileM})`,
-  mobileL: `(min-width: ${deviceSizes.mobileL})`,
-  tablet: `(min-width: ${deviceSizes.tablet})`,
-  laptop: `(min-width: ${deviceSizes.laptop})`,
-  laptopM: `(min-width: ${deviceSizes.laptopM})`,
-  laptopL: `(min-width: ${deviceSizes.laptopL})`,
-  desktop: `(min-width: ${deviceSizes.desktop})`,
-  wide: `(min-width: ${deviceSizes.wide})`
+  mobileS: `(max-width: ${deviceSizes.mobileS})`,
+  mobileM: `(max-width: ${deviceSizes.mobileM})`,
+  mobileL: `(max-width: ${deviceSizes.mobileL})`,
+  tablet: `(max-width: ${deviceSizes.tablet})`,
+  laptop: `(max-width: ${deviceSizes.laptop})`,
+  laptopM: `(max-width: ${deviceSizes.laptopM})`,
+  laptopL: `(max-width: ${deviceSizes.laptopL})`,
+  desktop: `(max-width: ${deviceSizes.desktop})`,
+  wide: `(max-width: ${deviceSizes.wide})`
 }
