@@ -62,7 +62,7 @@ const Theme: DefaultTheme = {
   },
   gradient: {
     yellow: {
-      left: "linear-gradient(212deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%), #FDCC4E",
+      left: "linear-gradient(212deg, #FFF 0%, rgba(255, 255, 255, 0.00) 50%), #FDCC4E",
       right: "linear-gradient(171deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%), #FDCC4E"
     }
   },
